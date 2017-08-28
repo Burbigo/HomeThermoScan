@@ -1,0 +1,40 @@
+{
+  "name": "home-thermo-scan",
+  "version": "1.0.0",
+  "description": "Новая папка",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "browser-sync": "^2.18.13",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.2",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Burbigo/HomeThermoScan.git"
+  },
+  "author": "Rostyslav Hutii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Burbigo/HomeThermoScan/issues"
+  },
+  "homepage": "https://github.com/Burbigo/HomeThermoScan#readme"
+}
