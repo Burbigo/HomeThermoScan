@@ -1,0 +1,21 @@
+{
+  "name": "home-thermo-scan",
+  "version": "1.0.0",
+  "description": "Новая папка",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Burbigo/HomeThermoScan.git"
+  },
+  "author": "Rostyslav Hutii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Burbigo/HomeThermoScan/issues"
+  },
+  "homepage": "https://github.com/Burbigo/HomeThermoScan#readme"
+}
