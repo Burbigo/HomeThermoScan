@@ -1,0 +1,27 @@
+Not necessarily use identical to our components.
+This list is just a enumeration of elements which we used and were available to us.
+
+And here they are:
+- Servo Futaba S3003 - 2 pcs.
+- Servo mount kit MG995 - 1 pcs.
+
+   (You can use another type of servo, but choose according with this dimensions 40 x 20 x 36 mm. 
+     Otherwise you will have problem with Servo mount kit MG995.)
+
+- Laser pointer SYD1230 Red (5mW, 650nm) - 1 pcs.
+- MLX90614ESF-DCI sensor - 1 pcs.
+
+   (Don't use MLX90614ESF-AAA.They're chiper, but have FOV(area of mesurment) about 90°, 
+     MLX90614ESF-DCI(BCI) has FOV=5°) 
+
+- Relay SRD-05VDC-SL-C - 1pcs.
+
+   (We use the relay to delay the power supply to the SDA, SLC contacts of the MLX90614ESF-DCI sensor. 
+     Otherwise the sensor will give false values(about 1037°C))
+
+- OV7670 Camera Module - 1 pcs.
+- Resistor 4k7 - 2 pcs.
+- Sheet of plexiglass, for making the basis to scanner - 1pcs.
+   (For us had enough piece of plexiglass 500 x 500 x 4 mm)
+
+- And of course a couple of contacts and wires.
