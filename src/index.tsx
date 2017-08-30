@@ -1,4 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-ReactDOM.render(<h1>Hello world!</h1>, document.querySelector('.app'));
+import { ThermoScanApp } from "./components/App"
+import './assets/styles/main.scss';
+
+ReactDOM.render(<ThermoScanApp />, document.querySelector('.app'));
