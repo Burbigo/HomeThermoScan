@@ -12,7 +12,8 @@
     "@types/react-dom": "^15.5.4",
     "browser-sync": "^2.18.13",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.2.3",
