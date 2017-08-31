@@ -1,0 +1,78 @@
+.arrow {
+    position: absolute;
+    padding: 0;
+    border: 40px solid;
+    border-color: transparent;
+    background: transparent;
+    
+    &.down { 
+        bottom: 0;
+        left: 35%;
+        border-top:   40px solid #2CC721;
+
+        &:hover {  
+            border-color: transparent;
+            border-top: 40px solid #44E53E;
+        }
+    
+        &:active {
+            border-color: transparent;    
+            border-top: 40px solid #049904;
+            
+        }
+
+    }
+      
+    &.right {
+        right: 0;
+        top:35%;
+        border-left:   40px solid #2CC721;
+
+        &:hover {  
+            border-color: transparent;
+            border-left: 40px solid #44E53E;
+        }
+    
+        &:active {
+            border-color: transparent;    
+            border-left: 40px solid #049904;
+        }
+    }
+
+    &.left {
+        top: 35%;
+        left: 0;
+        border-right:   40px solid #2CC721; 
+
+        &:hover {  
+            border-color: transparent;
+            border-right: 40px solid #44E53E;
+        }
+    
+        &:active {
+            border-color: transparent;    
+            border-right: 40px solid #049904;
+        }
+    }
+
+    &.up {
+        left:35%;
+        top: 0;
+        border-bottom:   40px solid #2CC721;
+
+        &:hover {  
+            border-color: transparent;
+            border-bottom: 40px solid #44E53E;
+        }
+    
+        &:active {
+            border-color: transparent;    
+            border-bottom: 40px solid #049904;
+        }
+    }
+
+    &:focus {
+        outline: 0;
+    }
+
+}
